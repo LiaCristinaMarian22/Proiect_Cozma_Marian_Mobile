@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proiect_Cozma_Marian_Mobile.AboutPage"
+             Title="AboutPage">
+    <VerticalStackLayout Spacing="9" Margin="9">
+        <HorizontalStackLayout Spacing="11">
+            <Image Source="cinema.png"
+                   SemanticProperties.Description="My Cinema"
+                   HeightRequest="70" />
+            <Label FontSize="22" FontAttributes="Bold" Text="Movies" VerticalOptions="End" />
+            <Label FontSize="22" Text="v1.0" VerticalOptions="End" />
+        </HorizontalStackLayout>
+        <Label Text="This app will help you see the movies you want to watch" />
+
+    </VerticalStackLayout>
+</ContentPage>
